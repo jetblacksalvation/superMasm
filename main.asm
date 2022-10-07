@@ -18,7 +18,7 @@ main proc
     ;stores stuff on stack? why does the program go sub than add? 
 
     ;reserves some stack memory for your function call
-	sub rsp, 40h ;  
+    sub rsp, 40h ;  
     mov rcx, offset messenge;offset turns messange into something that can fit this register 
     
     mov rbx  , offset message 
